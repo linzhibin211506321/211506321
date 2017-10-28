@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="BackgroundLayer.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="CannonLayer.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="FishLayer.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMenuLayer.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="LayerWithBackground.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuLayer.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="PaneLayer.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticData.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorldScene.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="BackgroundLayer.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="CannonLayer.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="FishLayer.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMenuLayer.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="LayerWithBackground.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuLayer.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="PaneLayer.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticData.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
