@@ -17,5 +17,9 @@ public:
 	virtual bool init();
 
 	virtual ~FishLayer(void);
+
+protected:
+	void addFish(float delta);
+	CCArray* _fishes;
 };
 

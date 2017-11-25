@@ -5,6 +5,10 @@
 #include "BackgroundLayer.h"
 #include "FishLayer.h"
 #include "MenuLayer.h"
+
+//17-11-19
+#include "TouchLayer.h"
+#include "CannonLayer.h"
 USING_NS_CC;
 
 class GameScene :
@@ -19,10 +23,20 @@ public:
 	static CCScene* scene(void);
 
 	virtual ~GameScene(void);
+
+	//11-19Ìí¼Ó
+
+	void cannonAimAt(CCPoint target);
+	void cannonShootTo(CCPoint target);
 protected:
 	BackgroundLayer *backgroundLayer;
 	FishLayer *fishLayer;
 	MenuLayer *menuLayer;
+
+	//11-19
+	//PaneLayer *_paneLayer;
+	CannonLayer *_cannonLayer;
+	TouchLayer *_touchLayer;
 
 	void preloadResources(void);
 };
