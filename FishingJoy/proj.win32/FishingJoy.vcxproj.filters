@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\211506377-master\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\211506377-master\Classes\BackgroundLayer.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\211506377-master\Classes\Bullet.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\211506377-master\Classes\Cannon.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\211506377-master\Classes\CannonLayer.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\211506377-master\Classes\Counter.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\211506377-master\Classes\Fish.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\211506377-master\Classes\FishingJoyData.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\211506377-master\Classes\FishJoyData.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\211506377-master\Classes\FishLayer.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\211506377-master\Classes\FishNet.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\211506377-master\Classes\GameMenuLayer.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\211506377-master\Classes\GameScene.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\211506377-master\Classes\GoldCounterLayer.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\211506377-master\Classes\HelloWorldScene.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\211506377-master\Classes\LoadingLayer.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\211506377-master\Classes\MenuLayer.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\211506377-master\Classes\PanelLayer.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\211506377-master\Classes\PersonalAudioEngine.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\211506377-master\Classes\ProgressBar.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\211506377-master\Classes\ProgressDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\211506377-master\Classes\ScheduleCountDown.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\211506377-master\Classes\ScheduleCounterDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\211506377-master\Classes\StaticData.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\211506377-master\Classes\TouchLayer.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\211506377-master\Classes\Weapon.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\211506377-master\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\211506377-master\Classes\AppMacros.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\211506377-master\Classes\BackgroundLayer.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\211506377-master\Classes\Bullet.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\211506377-master\Classes\Cannon.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\211506377-master\Classes\CannonLayer.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\211506377-master\Classes\Counter.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\211506377-master\Classes\Fish.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\211506377-master\Classes\FishingJoyData.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\211506377-master\Classes\FishJoyData.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\211506377-master\Classes\FishLayer.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\211506377-master\Classes\FishNet.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\211506377-master\Classes\GameMenuLayer.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\211506377-master\Classes\GameScene.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\211506377-master\Classes\GoldCounterLayer.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\211506377-master\Classes\HelloWorldScene.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\211506377-master\Classes\LoadingLayer.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\211506377-master\Classes\MenuLayer.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\211506377-master\Classes\PanelLayer.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\211506377-master\Classes\PersonalAudioEngine.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\211506377-master\Classes\ProgressBar.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\211506377-master\Classes\ProgressDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\211506377-master\Classes\ScheduleCountDown.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\211506377-master\Classes\ScheduleCounterDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\211506377-master\Classes\StaticData.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\211506377-master\Classes\TouchLayer.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\211506377-master\Classes\Weapon.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
